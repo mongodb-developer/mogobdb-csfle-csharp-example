@@ -12,7 +12,7 @@ namespace EnvoyMedSys
     {
         public static void Main()
         {
-            var connectionString = "PASTE YOUR MONGODB CONNECTION STRING/ATLAS URI HERE";
+            var connectionString = Environment.GetEnvironmentVariable("MDB_ATLAS_URI");
             var keyVaultNamespace = CollectionNamespace.FromFullName("encryption.__keyVault");
 
             var kmsKeyHelper = new KmsKeyHelper(

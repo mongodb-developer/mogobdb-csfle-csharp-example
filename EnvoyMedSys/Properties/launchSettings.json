@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "EnvoyMedSys": {
+      "commandName": "Project",
+      "environmentVariables": {
+        // This file is meant to make development easier for those who clone it as
+        // you only have to replace the following portions of the MDB_URI with
+        // your own information.
+        // Be sure to include this launchSettings.json file in your .gitignore file
+        // if you intend to commit it to a remote repository!
+        "MDB_URI": "mongodb+srv://<user>:<password>@<yourcluster>.mongodb.net/"
+      }
+    }
+  }
+}
