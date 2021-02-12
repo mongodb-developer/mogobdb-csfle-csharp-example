@@ -19,9 +19,9 @@ This is the sample application created in the [Client-Side Field Level Encryptio
 
 2. If running locally, start a `mongod` instance (Enterprise version >= 4.2) running on port 27017.
 
-3. Before running, don't forget to change the `connectionString` in `Program.cs`. If you're running a local MongoDB instance and haven't changed any default settings, you can use the default connection string: ``mongodb://localhost:27017``. If using a MongoDB Atlas cluster, paste in your cluster's URI.
+3. Create your own `.env` file. In this file, create a variable `MDB_ATLAS_URI` (or whatever you want to call your MongoDB connection string variable) and set your MongoDB connection string there. DO NOT PASTE your connection string in directly as this will expose your URI to the world, should you forget to remove it before commiting it to a repository. If you're running a local MongoDB instance and haven't changed any default settings, you can use the default connection string: ``mongodb://localhost:27017``. If using a MongoDB Atlas cluster, paste in your cluster's URI.
 
-When running the first time, a a key file will be generated. Make sure that this key file is in the root of your execution environment (it will automatically do this when generated). If you move it, be sure to also update the key file path variables in the code.
+4. When running the first time, a a key file will be generated. Make sure that this key file is in the root of your execution environment (it will automatically do this when generated). If you move it, be sure to also update the key file path variables in the code.
 
 ## More MongoDB Tutorials
 
