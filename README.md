@@ -1,3 +1,9 @@
+# Notice: Repository Deprecation
+This repository is deprecated and no longer actively maintained. It contains outdated code examples or practices that do not align with current MongoDB best practices. While the repository remains accessible for reference purposes, we strongly discourage its use in production environments.
+Users should be aware that this repository will not receive any further updates, bug fixes, or security patches. This code may expose you to security vulnerabilities, compatibility issues with current MongoDB versions, and potential performance problems. Any implementation based on this repository is at the user's own risk.
+For up-to-date resources, please refer to the [MongoDB Developer Center](https://mongodb.com/developer).
+
+
 # Client-Side Field Level Encryption with MongoDB & .NET Driver
 
 This is the sample application created in the [Client-Side Field Level Encryption (CSFLE) in MongoDB with C# tutorial](https://developer.mongodb.com/how-to/client-side-field-level-encryption-mongodb-csharp) by [Adrienne Tacke](https://twitter.com/adriennetacke). Feel free to clone this repo and follow along with the steps in the tutorial.
